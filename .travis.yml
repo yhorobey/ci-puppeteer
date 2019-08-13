@@ -10,5 +10,6 @@ install:
   - python3 --version
   - sudo apt-get install python3-pip
   - pip3 --version
+  - pip3 install mitmproxy
 script:
   - npm test

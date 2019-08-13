@@ -14,7 +14,7 @@ phases:
       - python3 --version
       - pip3 --version
       - pip3 install mitmproxy
-      - nohup mitmproxy & echo $! > pidfile
+      - nohup mitmdump & echo $! > pidfile
   build:
     commands:
       - npm test

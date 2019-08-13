@@ -7,7 +7,6 @@ jobs:
   build:
     docker:
       # specify the version you desire 
-      - image: circleci/buildpack-deps:bionic
       - image: circleci/node:10
 
       # Specify service dependencies here if necessary
