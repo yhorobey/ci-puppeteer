@@ -3,7 +3,7 @@ const URL = 'http://yatsun.me/test';
 let browser, page;
 
 beforeAll(async() => {
-	browser = await puppeteer.launch();
+	browser = await puppeteer.launch({args: ['--no-sandbox']});
     page = await browser.newPage();
     await page.setViewport({ width: 1366, height: 768 });
 });
