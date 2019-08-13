@@ -17,7 +17,7 @@ describe('Compass Smart Tag', () => {
 		  return element.innerHTML;
 		});
 
-	    expect(text).toBe('Welcome');
+	    expect(text).toBe('Test');
 	});
 
 });
