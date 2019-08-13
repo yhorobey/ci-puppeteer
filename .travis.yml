@@ -6,5 +6,7 @@ cache:
     - node_modules
 install:
   - npm install
+  - python3 --version
+  - pip3 --version
 script:
   - npm test
