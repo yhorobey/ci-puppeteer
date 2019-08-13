@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - checkout
-
+      - run: apt-get update
       - run:
         name: Install Headless Chrome dependencies
         command: |
