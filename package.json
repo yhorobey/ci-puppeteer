@@ -1,0 +1,17 @@
+{
+  "name": "ci-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "puppeteer": "^1.19.0"
+  }
+}
