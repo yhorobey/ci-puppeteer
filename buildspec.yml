@@ -11,6 +11,8 @@ phases:
         libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 \
         ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget --fix-missing
       - npm install
+      - python3 --version
+      - pip3 --version
   build:
     commands:
       - npm test
