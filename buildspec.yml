@@ -14,9 +14,13 @@ phases:
       - python3 --version
       - pip3 --version
       - pip3 install mitmproxy
+      - nohup mitmproxy & echo $! > pidfile
   build:
     commands:
       - npm test
+  post_build:
+    commands:
+      - kill $(cat pidfile)
 cache:
   paths:
     - 'node_modules/**/*'
