@@ -8,7 +8,8 @@ cache:
 install:
   - npm install
   - python3 --version
-  - sudo apt-get install -y python3-pip python-setuptools
+  - sudo apt-get install -y python3-pip
+  - sudo apt-get install -y python-setuptools
   - pip3 --version
   - pip3 install mitmproxy
 script:
